@@ -35,6 +35,11 @@ h1 {
     font-family: 'borel', sans-serif;
 
 }
+#menu {
+    font-size:110% ;
+    letter-spacing:4px ;
+    list-style-type:none ;
+}
 
 /*Maiin content*/
 main {
