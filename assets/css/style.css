@@ -1,4 +1,5 @@
-
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -8,26 +9,28 @@
 /* General style*/
 body {
     min-height: 100vh;
-    display: felx;
+    display: flex;
     flex-direction: column;
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif ;
 }
 
 
 /* Header */
 header {
-    background-color: lightcoral;
+    background-color:azure;
 }
 
 
 /*Maiin content*/
 main {
-    background-color: bisque;
-    /* space to put footer down*/
+    background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
+
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: wheat;
 }
