@@ -11,14 +11,20 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #3a3a3a;
+    color: #868e96;
+    background-color: #fff;
     font-family: 'Lato', sans-serif ;
 }
 
 
 /* Header */
 header {
-    background-color:azure;
+    background-color:#fff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 3px 3px #868e96;
 }
 h1 {
     font-family: 'borel', sans-serif;
