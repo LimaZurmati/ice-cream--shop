@@ -82,15 +82,55 @@ nav {
 }
 /*Maiin content*/
 main {
-    background-color: rgb(249, 230, 255);
+
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
-    background-image: url('/istockphoto-1215789324-612x612.jpg');
+    background-image: url('/istockphoto-1215789324-612x612.jpg') ;
 }
 
 
 /* Footer */
 footer {
     background-color: #fff;
+}
+/*media query for tablet and larger*/
+@media screen  and (min-width: 768px) {
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
+
+
+}
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
