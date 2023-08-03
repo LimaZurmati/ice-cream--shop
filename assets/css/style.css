@@ -86,14 +86,29 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
-    background-image: url('/istockphoto-1215789324-612x612.jpg') ;
+    background-image: url('/istockphoto-1215789324-612x612.jpg');
 }
 
 
 /* Footer */
-footer {
-    background-color: rgb(249, 230, 255);
+#socil-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
 }
+
+#socil-media i {
+    font-size: 150%;
+    padding: 6%;
+    color: #cc99ff;
+}
+
+
+
+
+
 /*media query for tablet and larger*/
 @media screen  and (min-width: 768px) {
 
