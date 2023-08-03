@@ -92,7 +92,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #fff;
+    background-color: rgb(249, 230, 255);
 }
 /*media query for tablet and larger*/
 @media screen  and (min-width: 768px) {
