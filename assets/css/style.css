@@ -11,10 +11,27 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #3b004d;
+    color: #a31aff;
     background-color: rgb(249, 230, 255);
     font-family: 'Lato', sans-serif;
     
+}
+h1{
+    font-family: 'borel', sans-serif;
+    letter-spacing: 2px;	
+    color: #a31aff;
+    font-size: 30px;
+
+}
+
+span {
+    color: #cc99ff;
+}
+h2,h3 {
+    font-family: 'oswald' , sans-serif;
+    letter-spacing: 2px;	
+    color: #a31aff;
+    font-size: 30px;
 }
 
 
@@ -36,16 +53,7 @@ header a {
     text-decoration: none;
 }
 
-h1 {
-    font-family: 'borel', sans-serif;
-    letter-spacing: 2px;	
-    color: #3b004d;
-    font-size: 30px;
 
-}
-span {
-    color: #cc99ff;
-}
 #menu {
     font-size:110%;
     letter-spacing:4px;
@@ -86,9 +94,18 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
-    background-image: url('/istockphoto-1215789324-612x612.jpg');
 }
+/*home page image*/
+ #ice-cream {
+    height: 600px;
+    width: 100%;
+    background: url('../images/65c066236c71b246e6ac0f569cf55b45.webp') no-repeat center center/cover;
 
+ }
+
+ #imag-text {
+    background-color:#a31aff;
+ }
 
 /* Footer */
 #socil-media {
