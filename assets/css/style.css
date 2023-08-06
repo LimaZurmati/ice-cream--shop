@@ -227,7 +227,13 @@ main {
         color: #4d2f68;
       }
       
+      #flavors {
 
+    margin-left: 43%;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    
+      }
       
       .row {
         margin: 8px -16px;
