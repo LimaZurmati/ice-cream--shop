@@ -11,21 +11,21 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #a31aff;
-    background-color: rgb(249, 230, 255);
+    color: red;
+    background-color: #ffffff;
     font-family: 'Lato', sans-serif;
     
 }
 h1{
     font-family: 'borel', sans-serif;
     letter-spacing: 2px;	
-    color: #a31aff;
+    color: #ffffff;
     font-size: 30px;
 
 }
 
 span {
-    color: #cc99ff;
+    color: #4d2f68;
 }
 h2,h3 {
     font-family: 'oswald' , sans-serif;
@@ -36,7 +36,7 @@ h2,h3 {
 
 /* Header */
 header {
-    background-color:rgb(249, 230, 255);
+    background-color:#a895db;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -68,7 +68,7 @@ header a {
 
 nav {
     position: absolute;
-    background-color: rgb(249, 230, 255);
+    background-color: #a895db;
     width: 100%;
     left: 0;
     padding:0 1rem;
@@ -101,6 +101,7 @@ main {
     width: 100%;
     background: url('../images/65c066236c71b246e6ac0f569cf55b45.webp') no-repeat center center/cover;
     position: relative;
+    
 
  }
 
@@ -122,7 +123,7 @@ main {
  }
  #imag-text > h2,
  #imag-text > h3 {
-    color: #a31aff;
+    color: #4d2f68;
  }
  /* Hero section */
 
@@ -130,7 +131,145 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
+/*#about {
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3b004d;
+}
+#about-img {
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+    padding-top: 60px;
+    padding-left: 90px;
+    padding-bottom: 60px;
+    border-radius: 5px;
+    border-color: #3b004d;
+    
+}
+#about-text {
+    font-size: 20px;
+    padding-left: 200px;
+    padding-top: 20%;
+    float: left;
+}*/
+.container {
+    width: 100%;
+    margin: 0 auto;
+   
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.about-img {
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+    border-color: red;
+    border-radius: 26px;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
+}
+    .about-img img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        transition: 0.5 ease;
+    
+         
+    }
+    .about-img :hover img {
+        transform: scale(1.2);
+
+
+    }
+    .about-text {
+        flex: 1;
+       
+
+        
+
+    }
+    .about-text h1 {
+        font-size: 23px;
+        margin-bottom: 15px;
+        color:#a31aff;
+
+    }
+    .about-text p {
+        font-size: 18px;
+        line-height: 1.5;
+        color: #a31aff;
+
+
+    }
+    .about-text .read-more {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color:#3b004d;
+        color: #ffffff;
+        font-size: 19px;
+        text-decoration: none;
+        border-radius: 25px;
+        margin-top: 15px;
+        transition: 0.3s ease;
+    }
+
+    .main {
+        width: 100%;
+        margin: auto;
+      }
+      
+      h1 {
+        font-size: 50px;
+        word-break: break-all;
+      }
+      
+      .row {
+        margin: 8px -16px;
+      }
+      
+      /* Add padding BETWEEN each column (if you want) */
+      .row,
+      .row > .column {
+        padding: 8px;
+      }
+      
+      /* Create four equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 25%;
+      }
+      
+      /* Clear floats after rows */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+
+      
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 900px) {
+        .column {
+          width: 50%;
+        }
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+      
 /* Footer */
 #socil-media {
     text-align: center;
@@ -138,12 +277,15 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    background-color: #a895db;
+
+  
 }
 
 #socil-media i {
     font-size: 150%;
     padding: 6%;
-    color: #cc99ff;
+    color: #ffffff;
 }
 
 
