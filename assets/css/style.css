@@ -30,7 +30,6 @@ span {
 h2,h3 {
     font-family: 'oswald' , sans-serif;
     letter-spacing: 2px;	
-    color: #a31aff;
     font-size: 30px;
 }
 
@@ -93,19 +92,44 @@ main {
 
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 79px;
 }
+
 /*home page image*/
  #ice-cream {
-    height: 600px;
+    height: 90vh;
     width: 100%;
     background: url('../images/65c066236c71b246e6ac0f569cf55b45.webp') no-repeat center center/cover;
+    position: relative;
 
  }
 
  #imag-text {
-    background-color:#a31aff;
+    background-color:rgb(245, 230, 255, .5);
+    font-size: 130%;
+    position:absolute;
+    bottom: 30px;
+    min-height: 200px;
+    width: 80%;
+    height: 200px;
+    padding-top: 30px;
+    padding-left: 10px;
+    text-align: justify;
+    letter-spacing: 2px;
+    white-space: normal;
+
+
  }
+ #imag-text > h2,
+ #imag-text > h3 {
+    color: #a31aff;
+ }
+ /* Hero section */
+
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+}
 
 /* Footer */
 #socil-media {
@@ -157,6 +181,10 @@ main {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
+    }
+    #imag-text {
+        width: 300px;
+        right: 50px;
     }
 
 
