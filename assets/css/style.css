@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: red;
+    color: #ffffff;
     background-color: #ffffff;
     font-family: 'Lato', sans-serif;
     
@@ -31,6 +31,7 @@ h2,h3 {
     font-family: 'oswald' , sans-serif;
     letter-spacing: 2px;	
     font-size: 30px;
+    
 }
 
 
@@ -169,7 +170,6 @@ main {
     flex: 1;
     margin-right: 40px;
     overflow: hidden;
-    border-color: red;
     border-radius: 26px;
     padding-left: 200px;
     padding-top: 100px;
@@ -224,12 +224,10 @@ main {
     .main {
         width: 100%;
         margin: auto;
+        color: #4d2f68;
       }
       
-      h1 {
-        font-size: 50px;
-        word-break: break-all;
-      }
+
       
       .row {
         margin: 8px -16px;
