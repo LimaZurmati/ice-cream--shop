@@ -103,7 +103,7 @@ main {
  #ice-cream {
     height: 90vh;
     width: 100%;
-    background: url('../images/65c066236c71b246e6ac0f569cf55b45.webp') no-repeat center center/cover;
+    background: url('../image2/65c066236c71b246e6ac0f569cf55b45.jpg') no-repeat center center/cover;
     position: relative;
     
 
@@ -143,11 +143,13 @@ main {
 }
 
 
+
 .column1 {
     float: left;
     width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
+  
   
   }
   
@@ -162,11 +164,16 @@ main {
   /* Add some shadows to create a card effect */
   .card1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
   }
+
   
   /* Some left and right padding inside the container */
   .container {
     padding: 0 16px;
+  }
+  .container >h2 {
+    color: #3b004d;
   }
   
   /* Clear floats */
@@ -177,7 +184,7 @@ main {
   }
   
   .title {
-    color: grey;
+    color:#3b004d;
   }
   
   .button {
@@ -186,15 +193,16 @@ main {
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: #3b004d;
     text-align: center;
     cursor: pointer;
     width: 100%;
   }
   
   .button:hover {
-    background-color: #555;
+    background-color: #a895db;
   }
+
   
 
     .main {
@@ -255,6 +263,9 @@ main {
       #contact-form>h2 {
         color: #fafafa;
         margin-bottom: 25px;
+    }
+    #contact-form>p {
+      font-size: 23px;
     }
     .text-input {
         background: transparent;
@@ -333,6 +344,9 @@ main {
         width: 300px;
         right: 50px;
     }
+
+
+  }
 /* Form */
 #contact {
     background-position: center;
@@ -347,12 +361,12 @@ main {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: ##fafafa;
 }
 
 
 
-}
+
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
@@ -364,6 +378,7 @@ main {
           width: 50%;
         }
       }
+
       
       /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
       @media screen and (max-width: 600px) {
