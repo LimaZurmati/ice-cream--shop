@@ -249,7 +249,8 @@ main {
       /*Form*/
       #contact {
         background-image: url('../image2/ice3.jpg');
-        height: 90vh;
+        min-height: 90vh;
+        height: auto;
         background-size: cover;
         background-position: 75%;
         padding: 5% 20% 0 20% ;
@@ -365,6 +366,11 @@ main {
 .text-input:hover {
     border-color: #fafafa;
 }
+#contact-id {
+  margin-top: 1em;
+  font-size: small;
+}
+
 
 
 
@@ -388,5 +394,10 @@ main {
           width: 100%;
 
         }
+     
+          .col-25, .col-75, input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+          }
 
       }
