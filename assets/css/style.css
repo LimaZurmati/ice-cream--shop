@@ -10,12 +10,21 @@
 /* General style*/
 body {
   min-height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   color: #ffffff;
   background-color: #ffffff;
   font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
 
+}
+html, body {
+  overflow-x: hidden;
+}
+body {
+  width:100%;
 }
 
 h1 {
@@ -340,6 +349,7 @@ main {
     box-shadow: none;
     width: fit-content;
     padding-right: 1rem;
+   
   }
 
   #menu {
@@ -392,7 +402,7 @@ main {
 
 #contact-id {
   margin-top: 1em;
-  font-size: small;
+  
 }
 
 
@@ -417,6 +427,7 @@ main {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+    max-width: 480px;
 
   }
 
