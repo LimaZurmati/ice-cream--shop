@@ -21,11 +21,11 @@ User of this website will be able to find all the information they need to know 
   - The home page picture of testy ice-cream with welcome message.
   
 
-![Landing Page](assets/image2/redme-image/hero.pnge)
+![Landing Page](assets/image2/redme-image/hero.png)
 
 - __Team__
 
-  - This section shows our team with their positin.
+  - This section shows our team with their positions.
 
 
 ![Team](assets/image2/redme-image/team.png)
