@@ -14,9 +14,7 @@ Visit the deployed site: [Ice-Cream Shop](https://limazurmati.github.io/ice-crea
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
 
-During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things were not working as expected.
-
-I utilised the console in the developer tools to work through small sections of JavaScript and ensure that the code was working, and also to troubleshoot where issues were.
+During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things were not working as expected.gi
 
 I have gone through each page using google chrome developer tools & Firefox inspector tool to ensure that each page is responsive on a variety of different screen sizes and devices.
 
@@ -44,9 +42,9 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 All pages of the site are achieving a score of 100 across the 4 categories.
 
-![index.html](assets/testing/index-ld.PNG)
+![index.html](assets/testing/index-newPNG.PNG)
 
-![flavors.html](assets/testing/flavors-d.PNG)
+![flavors.html](assets/testing/fnew.PNG)
 
 ![contact.html](assets/testing/Caontact-d.PNG)
 
