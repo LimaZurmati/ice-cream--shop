@@ -18,14 +18,14 @@ User of this website will be able to find all the information they need to konw 
 
 - __Home page__
 
-  - The home page picture of testy ice-cream with welcome .
+  - The home page picture of testy ice-cream with welcome message.
   
 
-![Landing Page](assets/image2/redme-image/hero.png)
+![Landing Page](assets/image2/redme-image/hero.pnge)
 
 - __Team__
 
-  - This section shows our team with thire positin.
+  - This section shows our team with their positin.
 
 
 ![Team](assets/image2/redme-image/team.png)
@@ -41,8 +41,8 @@ User of this website will be able to find all the information they need to konw 
 
 - __Flavor page__
 
-  - The Flavors page will allow the user to see diffrent kind of ice-cream with diffrent test.
-  - This section shows information user need to konw about it price.
+  - The Flavors page will allow the user to see different kind of ice-creams with different tests.
+  - This section shows information user need to know about prices.
   
 
 ![Flavors](assets/image2/redme-image/flavorss.png)
@@ -66,7 +66,7 @@ User of this website will be able to find all the information they need to konw 
 - I discoverd that my project when the  width is smaller, horizontal scrollbar appeared.
 - fixed the problem.
 
-- htm, body {
+- html, body {
   overflow-x: hidden;
 }
 body {
