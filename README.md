@@ -1,7 +1,7 @@
 # Ice-Cream shop
 
  Ice-Cream Shop is a site that helps people who live in kabul to find the best quality and testy ice-cream. this site motivates them to visit our shop. 
-User of this website will be able to find all the information they need to konw about Ice-Cream shop. About the pricing, flavors and conatct with us. 
+User of this website will be able to find all the information they need to know about Ice-Cream shop. About the pricing, flavors and conatct with us. 
 
 ![Responsiceve Mockup](assets/image2/redme-image/urzala.png)
 
@@ -11,7 +11,7 @@ User of this website will be able to find all the information they need to konw 
 - __Navigation Bar__
 
   - Featured at the top of the page, the navigation shows the Ice-Cream shop name in the left corner. Ice-Cream Shop that links to the top of the page.
-  - The other navigation links are to the right : Home, Flavors and contact which link to differnt section of the same page.
+  - The other navigation links are to the right : Home, Flavors and contact which link to different section of the same page.
   - The navigation cleraly tells the user the name of the shop and website and makes the different secton of the information.
 
 ![Nav Bar](assets/image2/redme-image/navigation.png)
