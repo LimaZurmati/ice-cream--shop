@@ -54,11 +54,9 @@ User of this website will be able to find all the information they need to know 
 
 
 
+## Testing
 
-## Testing 
-
--  I confirmed that this project is responsive. looks good and function on all stndard screen szes using the devtools device toolbar.
-- I confirmed that the navigation, header, Flavors,and conatct  text are all readable and easy to understand.
+Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ## Bugs
 

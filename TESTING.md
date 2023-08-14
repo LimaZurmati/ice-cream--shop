@@ -60,6 +60,28 @@ Each page is achieving a score of 100 for the last three categories.
 
 ![contact.html](assets/testing/Contact-m.PNG)
 
-
+## MANUAL TESTING
 
 - - -
+`Home Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| Navigation | Link to the flavors and contact page | Clicked on link | New page with different information | Pass |
+| Home page image| Attract user attention to page| Shows welcome message | Nice view | Pass |
+| Team section| Directs the user to the team members | Read information about the team | Can contact with them| Pass |
+
+`flavor Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| Ice-Cream images | Shows kind of ice-cream | Read text| To know about the test| Pass |
+
+`conatct Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| form | write name and message | click on the box | send data by cliking button | Pass |
