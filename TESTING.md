@@ -44,7 +44,7 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 All pages of the site are achieving a score of 100 across the 4 categories.
 
-![index.html](assets/testing/index-d.PNG)
+![index.html](assets/testing/index-ld.PNG)
 
 ![flavors.html](assets/testing/flavors-d.PNG)
 
